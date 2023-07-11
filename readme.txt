@@ -15,3 +15,12 @@
 6. Verify the installation:
    node -v
    npm -v
+
+7 . clone repository
+    git clone https://github.com/princepatrice/Access-DyanomoDB-BY-EC2
+
+8 . install package 
+    npm install
+
+9. run
+    npm start
