@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
   // Increment the counter value in DynamoDB
   incrementCounter(serverIp)
     .then(() => {
-      res.send('Counter value updated successfully!');
+      res.send(`Koya Patrice Dzogbema. (${serverIp}) Counter value updated successfully!`);
     })
     .catch((error) => {
       console.error('Error updating counter:', error);
