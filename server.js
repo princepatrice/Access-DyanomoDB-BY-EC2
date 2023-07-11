@@ -4,10 +4,11 @@ const os = require('os');
 const express = require('express');
 const AWS = require('aws-sdk');
 const app = express();
-const port = process.env.PORT;
+const port = 3000;
+YOUR_AWS_REGION = "us-east-1"
 
 // Configure AWS SDK with your AWS credentials and region
-AWS.config.update({ region: process.env.YOUR_AWS_REGION });
+AWS.config.update({ region: YOUR_AWS_REGION });
 
 // Create an instance of the DynamoDB service
 const dynamodb = new AWS.DynamoDB();
